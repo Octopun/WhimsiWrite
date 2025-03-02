@@ -1,0 +1,104 @@
+/*journal entries*/
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+    max-width: 400px;
+    min-width: 200px;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'DynaPuff';
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+body {
+    display: block;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    background: lightgrey;
+    height: 100vh;
+    background-image: url("../assets/Background.jpeg");
+}
+
+.container {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.note-container{
+    font-family: 'Itim';
+}
+.note { 
+    font-family: 'Itim';
+    display: block;
+    background: lightblue;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    width: 60vw;
+    max-width: 550px;
+    min-width: 300px;
+    margin: 15px auto;
+    border: 1px solid lightcyan;
+    justify-content: space-between;
+}
+
+.note-info {
+    flex-grow: 1;
+}
+
+.date {
+    font-family: 'Itim';
+    font-size: 14px;
+    color: black;
+    margin: 5px 0;
+}
+
+.journal-entry{
+    font-size: 16px;
+    font-family: 'Itim';
+    color: black;
+}
+
+.note-content {
+    font-size: 16px;
+    font-family: 'Itim';
+    color: black;
+    margin-top: 5px;
+}
+
+.avatar { 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: lightgray;
+}
+
+button {
+    cursor: pointer;
+    color: black;
+    background: lightskyblue;
+    font-family: 'Itim';
+}
+
+
