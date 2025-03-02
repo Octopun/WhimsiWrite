@@ -30,6 +30,7 @@ nav {
 
 body {
     display: block;
+    background-image: url('assets/Background.jpeg');
 }
 
 main {

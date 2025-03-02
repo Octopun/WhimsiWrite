@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Itim&display=swap');
+
+.notebook {
+    padding: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.notebook h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'DynaPuff', cursive;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.note {
+    background: whitesmoke;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    width: 60vw;
+    max-width: 550px;
+    min-width: 300px;
+}
+
+.note_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.note_title h3,
+.note_date h3 {
+    margin: 0;
+    color: #333;
+}
+
+.note_content {
+    color: #666;
+}

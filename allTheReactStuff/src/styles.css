@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Itim&display=swap');
+
+:root {
+    --primary-color: #f6e0aa;
+    --secondary-color: #ffd9e8;
+    --text-color: #4a4a4a;
+    --hover-color: #e6d09a;
+    --background-overlay: rgba(255, 255, 255, 0.9);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Itim', sans-serif;
+    background-image: url('@assets/background.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--text-color);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--background-overlay);
+    min-height: 100vh;
+}
+
+.App {
+    min-height: 100vh;
+}

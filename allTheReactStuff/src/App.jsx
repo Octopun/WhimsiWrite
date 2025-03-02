@@ -1,18 +1,16 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import NavBar from "./components/NavBar";
-
+import './App.css';
+import './styles.css';
 
 const App = () => {
     return (
-        <>
-        <header>
-            <NavBar />
-        </header>
-        <div className="App-container">
-            <Outlet />
+        <div className="App">
+            <div className="container">
+                <Outlet />
+            </div>
         </div>
-        </>
     );
-}
-// C4CED1
+};
+
+export default App;
