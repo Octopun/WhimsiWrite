@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Itim&display=swap');
+
+.note { 
+    display: block;
+    background: whitesmoke;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    width: 60vw;
+    max-width: 550px;
+    min-width: 300px;
+    margin: 15px auto;
+    border: 1px solid lightcyan;
+}
+
+.note-info {
+    flex-grow: 1;
+}
+
+.todo-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: 'Itim';
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f6e0aa;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e6d09a;
+}

@@ -1,0 +1,52 @@
+#house_img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    min-height: calc(100vh - 100px);
+    position: relative;
+    padding: 2rem;
+}
+
+#cat_img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#house_img:hover, #cat_img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    #house_img {
+        width: 200px;
+        height: 200px;
+        right: 10px;
+        bottom: 10px;
+    }
+    
+    #cat_img {
+        width: 150px;
+        height: 150px;
+        left: 10px;
+        bottom: 10px;
+    }
+    
+    .home {
+        min-height: calc(100vh - 80px);
+    }
+}
