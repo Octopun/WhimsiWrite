@@ -45,12 +45,23 @@ main {
     border-radius: 10px;
 }
 
+.journal-entry{
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: lightblue;
+}
+
 .note-container{
     font-family: 'Itim';
 }
 .note { 
     font-family: 'Itim';
     display: block;
+    align-items: flex-start;
     background: lightblue;
     padding: 15px;
     border-radius: 12px;
@@ -93,6 +104,8 @@ main {
     border-radius: 50%;
     background: lightgray;
 }
+
+
 
 button {
     cursor: pointer;

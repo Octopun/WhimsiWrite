@@ -1,22 +1,18 @@
 import React from "react";
-import {
-    createBrowserRouter,
-    createRoutesFromElements,
-    Route,
-    RouterProvider,
- } from 'react-router-dom'
-/*
-{TODO: import needed things}
-{TODO: basic layout}
-*/
+import { Outlet } from "react-router-dom";
+import NavBar from "./components/NavBar";
 
-const router = createBrowserRouter(
-    createRoutesFromElements(
-        <Route errorElement={<NotFound />} element={<App />} >
-            <Route path="/" element={<Home />} />
-            <Route path="/notebook" element={<Notebook />} />
-            <Route path="/todos" element={<ToDos />} />
-            <Route path="*" element={<NotFound />} />
-        </Route>
-    )
-)
+
+const App = () => {
+    return (
+        <>
+        <header>
+            <NavBar />
+        </header>
+        <div className="App-container">
+            <Outlet />
+        </div>
+        </>
+    );
+}
+// C4CED1

@@ -3,23 +3,8 @@ import React, { useState } from "react";
 import "./Notebook.css";
 
 const Notebook = () => {
-    const [notes, setNotes] = useState([
-        {
-            title: "Note 1",
-            date: "2023-10-01",
-            content: "This is the content of note 1."
-        },
-        {
-            title: "Note 2",
-            date: "2023-10-02",
-            content: "This is the content of note 2."
-        },
-        {
-            title: "Note 3",
-            date: "2023-10-03",
-            content: "This is the content of note 3."
-        }
-    ]);
+    const [notes, setNotes] = useState([]);
+    
     return (
         <>
             <div className="notebook">
